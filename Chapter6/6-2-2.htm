@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	p:before{
+		content:"hello ";
+	}
+	p:after{
+		content:"!";
+	}
+	p:first-child{
+		color:red;
+	}
+	p:last-child{
+		color:blue;
+	}
+	p:nth-child(3){
+		color:yellow;
+	}
+	p:nth-last-child{
+		color:green;
+	}
+	p:nth-child(even){
+		font-size:2em;
+	}
+	p:nth-child(odd){
+		font-size:1em;
+	}
+</style>
+<body>
+<p>world</p>
+<p>the second word</p>
+<p>the third word</p>
+<p>the forth word</p>
+</body>
+</html>
